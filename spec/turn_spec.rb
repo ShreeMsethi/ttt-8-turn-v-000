@@ -1,5 +1,7 @@
 require_relative "../lib/turn.rb"
 
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
 describe './lib/turn.rb' do
 
   describe '#display_board' do
